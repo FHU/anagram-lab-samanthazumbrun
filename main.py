@@ -6,6 +6,9 @@ if __name__ == '__main__':
     word2 = input("Etner word 2: ")
     result = anagram(word1, word2)
 
+
+#ben and hannah = False
+
 #Solution
 '''def anagram(word1, word2):
     word1 = word1.lower()
