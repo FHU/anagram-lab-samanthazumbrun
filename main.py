@@ -1,5 +1,5 @@
 
-def anagram():
+def anagram(word1, word2):
     if sorted(word1) == sorted(word2):
         return True
     else:
@@ -10,5 +10,5 @@ if __name__ == '__main__':
     word2 = input().lower()
     print(anagram(word1, word2))
 
-#test
+
     
