@@ -10,5 +10,5 @@ if __name__ == '__main__':
     word2 = input().lower()
     print(anagram(word1, word2))
 
-
+#test
     
