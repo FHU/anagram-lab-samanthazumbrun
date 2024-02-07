@@ -7,8 +7,8 @@ def anagram(word1, word2):
         return False
 
 if __name__ == '__main__':
-    word1 = input().lower()
-    word2 = input().lower()
+    word1 = input().lower().replace(" ","")
+    word2 = input().lower().replace(" ","")
     print(anagram(word1, word2))
 
 
