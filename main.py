@@ -10,6 +10,7 @@ if __name__ == '__main__':
     word1 = input().lower().replace(" ","")
     word2 = input().lower().replace(" ","")
     print(anagram(word1, word2))
+    #test
 
 
     
